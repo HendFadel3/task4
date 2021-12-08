@@ -5,8 +5,8 @@ function Clean($input){
  }
 if($_SERVER['REQUEST_METHOD'] == "POST"){
 
-    $name  = $_POST['name']; 
-    $email = Clean($_POST['email']);
+    $name  = clean($_POST['name']); 
+    $email = clean($_POST['email']);
     $password =$_POST['password'] ;
     $address  =clean($_POST['address']);
     $linkedIn =clean($_POST['linkedIn']);
