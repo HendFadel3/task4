@@ -75,7 +75,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
      }
      if(count($errors) > 0){
         foreach ($errors as $key => $value) {
-            # code...
+            
             echo '* '.$key.' : '.$value.'<br>';
         }
     }
